@@ -41,11 +41,18 @@ nav.navbar-myPage ul.navbar-nav a:hover {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #95001a;
+    border-color: rgba(250, 250, 250, 0);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #95001a;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
 }
 
 /* Social Network Links */
