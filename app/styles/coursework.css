@@ -1,0 +1,228 @@
+body {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* Navbar */
+nav.navbar-myPage {
+    background-color: #f2f2f3;
+    border-color: #f2f2f3;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+/* Navigation tabs */
+#courseworkSection {
+    margin-top: -75px;
+    margin-bottom: -100px;
+}
+
+.nav-pills > li > a {
+    color: #95001a;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #95001a;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #95001a;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #ffffff;
+    background-color: #95001a;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #ffffff;
+    background-color: #95001a;
+}
+
+.centered-pills {  
+    text-align: center
+}
+.centered-pills ul.nav-pills {
+    display: inline-block
+}
+.centered-pills li {
+    display: inline
+}
+
+ul {
+    list-style-type: none;
+}
+
+#years {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.year:hover {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.year {
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.coursework {
+    margin-top: -75px;
+    background-color: #f2f2f3;
+}
+
+/* Classes */
+.semester {
+    margin-left: 0px;
+    font-style: italic;
+    font-family: "Open Sans",sans-serif;   
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #01256e;
+}
+
+.classA {
+    margin-right: 10px;
+    margin-left: -10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+}
+
+dl {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 20%;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0px;
+}
+
+/*dl:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}*/
+
+dt {
+    line-height: 1.25;
+    font-size: 32px; /* 60px */
+    font-weight: 300;
+    text-align: center;
+    color: #01256e;    
+    padding-bottom: 15px;
+}
+
+.class {
+    font-weight: 300;
+}
+
+dd {
+    text-align: center;
+    color: #44464b;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.semesterBorder {
+    border: 1px solid #95001a;
+    border-radius: 4px;
+}
+
+.spring {
+    padding-top: 50px;
+}
+
+#FFal, #aFix, .sophomoreFall {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section {
+    padding: 100px 0px;    
+    width: 100%;
+}
+
+section h2 {
+    margin: 0px;
+    font-size: 3em;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+section h2 { 
+    color: #01256e;
+}
+
+#fill {
+    height: 257px;
+    background-color: #f2f2f3;
+}
+
+#smallScreen {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .secondRowFFall dl {
+        width: 50%;
+    }
+
+    #FFall, .sFall, #aFix {
+        display: none;
+    }
+
+    #smallScreen {
+        display: initial;
+    }
+
+    dl {
+        width: 33%;
+    }
+
+    .secondRow, .secondRowFFall {
+        margin-top: -40px;
+    }
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sFall, #FFall, #aFix {
+        display: initial;
+        display: normal;
+    }
+
+    #smallScreen {
+        display: none;
+    }
+
+    .centered-pills {
+        padding-bottom: 20px;
+    }
+
+    dl {
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    #cis120 {
+        padding-top: 20px;
+    }
+
+    #courseworkTitle {
+        display: none;
+    }
+}

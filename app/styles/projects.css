@@ -1,0 +1,152 @@
+body {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+.background:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+
+    background: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url("../images/ta2.jpg") no-repeat center center;
+    background-attachment: fixed;
+    min-height: 101%;
+    min-width: 101%;
+    background-size: cover;
+    left: -2px;
+}
+
+/*.background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}*/
+
+header {
+    text-align: center;
+    color: #01256e;
+    background: #ffffff;
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 1;
+    height: 88%;
+    top: 0;
+    left: 0;
+}
+
+/*.row {
+    padding-top: 100px;
+}*/
+
+.projectPic {
+    width: 80%;
+    height: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+#enertivAPI {
+    width: 80%;
+    height: 80%;
+    margin: 5% auto 0 auto; 
+    background: url("../images/enertivAPI.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#myWebsite {
+    width: 80%;
+    height: 80%;
+    margin: 5% auto 0 auto; 
+    background: url("../images/myWebsite.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 45px 0 66px 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+}
+
+#enertivAPI:hover .overlay, #myWebsite:hover .overlay {
+    opacity: 1;
+}
+
+.projectText {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+hr {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.btn-geckoboard {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  border: 2px solid transparent;
+  border-radius: 0px;
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+
+.btn-outline {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn-geckoboard:hover {
+  -webkit-transition: color 0.3s ease, background 0.3s ease;
+  -moz-transition: color 0.3s ease, background 0.3s ease;
+  -ms-transition: color 0.3s ease, background 0.3s ease;
+  -o-transition: color 0.3s ease, background 0.3s ease;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-geckoboard:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+
+/*@media (max-width: 560px) {
+  .row {
+      padding-top: 0px;
+  }
+}*/
