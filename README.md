@@ -1,4 +1,4 @@
-# websiteProduction
+# My Website (Production Version)
 To run this project locally, type the following in your terminal or command prompt
 
 
