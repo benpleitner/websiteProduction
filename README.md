@@ -1,2 +1,7 @@
 # websiteProduction
-The production version of my website
+To run this project locally do
+
+`bash`
+
+    cd app
+    python -m SimpleHTTPServer 8899 index.html
