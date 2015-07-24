@@ -226,3 +226,9 @@ section h2 {
         display: none;
     }
 }
+
+@media (min-width: 1200px) {
+    .sophomoreFall dl {
+        margin: 0 5px 0 5px;
+    }
+}

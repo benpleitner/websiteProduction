@@ -184,3 +184,8 @@ footer {
     display: none;
   }
 }
+
+/* Social icons fix */
+ul.social-network {
+  top: 49%;
+}
