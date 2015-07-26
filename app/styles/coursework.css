@@ -108,13 +108,9 @@ dl {
     margin-bottom: 0px;
 }
 
-/*dl:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}*/
-
 dt {
     line-height: 1.25;
-    font-size: 32px; /* 60px */
+    font-size: 32px;
     font-weight: 300;
     text-align: center;
     color: #01256e;    

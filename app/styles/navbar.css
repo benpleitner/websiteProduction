@@ -71,11 +71,6 @@ ul.social-network li {
     margin: 0 5px;
 }
 
-/*.social-network a.icoFacebook:hover i, .social-network a.icoLinkedin:hover i,
-.social-network a.icoEnvelope:hover i, .social-network a.icoGithub:hover i, {
-    color: #fff;
-}*/
-
 a.socialIcon:hover, .socialHoverClass {
     color: #44BCDD;
 }
