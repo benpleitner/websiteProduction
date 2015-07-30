@@ -8,4 +8,4 @@ cd app
 python -m SimpleHTTPServer 8899 index.html
 ```
 
-Then go to `http://localhost8899` in your browser.
+Then go to `http://localhost:8899` in your browser.
