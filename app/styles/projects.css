@@ -80,6 +80,15 @@ header {
     overflow: hidden;
 }
 
+#cis110Tutorials {
+    width: 80%;
+    height: 80%;
+    margin: 5% auto 0 auto; 
+    background: url("../images/cis110Tutorials.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
 .overlay {
     background: rgba(0, 0, 0, 0.75);
     text-align: center;
@@ -89,7 +98,7 @@ header {
     -moz-transition: opacity 0.5s ease;
 }
 
-#enertivAPI:hover .overlay, #myWebsite:hover .overlay, #pennCourseFilter:hover .overlay {
+#enertivAPI:hover .overlay, #myWebsite:hover .overlay, #pennCourseFilter:hover .overlay, #cis110Tutorials:hover .overlay {
     opacity: 1;
 }
 
