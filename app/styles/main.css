@@ -83,23 +83,6 @@ header .intro-text .about {
 
 @media (max-width: 560px) {
     .background:before {
-        content: "";
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        display: block;
-
-        background: linear-gradient(rgba(250, 250, 250, 0.4), rgba(250, 250, 250, 0.4)), url("../images/biking.jpg") no-repeat -1100px center;
-        background-attachment: fixed;
-        min-height: 101%;
-        min-width: 101%;
-        left: -2px;
-
-        -webkit-filter: blur(1px);
-        -moz-filter: blur(1px);
-        -o-filter: blur(1px);
-        -ms-filter: blur(1px);
-        filter: blur(1px);
+        background: #f2f2f3;
     }
 }
