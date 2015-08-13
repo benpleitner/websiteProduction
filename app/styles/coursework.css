@@ -2,14 +2,10 @@ body {
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    background-color: #f2f2f3;
 }
 
 /* Navbar */
-nav.navbar-myPage {
-    background-color: #f2f2f3;
-    border-color: #f2f2f3;
-}
-
 .navbar {
     margin-bottom: 0px;
 }
@@ -74,7 +70,6 @@ ul {
 
 .coursework {
     margin-top: -75px;
-    background-color: #f2f2f3;
 }
 
 /* Classes */
@@ -155,11 +150,6 @@ section h2 {
 
 section h2 { 
     color: #01256e;
-}
-
-#fill {
-    height: 257px;
-    background-color: #f2f2f3;
 }
 
 #smallScreen {
