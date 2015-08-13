@@ -21,28 +21,16 @@ body {
     left: -2px;
 }
 
-/*.background {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 0;
-}*/
-
 header {
     text-align: center;
     color: #01256e;
     background: #ffffff;
-    /*position: fixed;*/
     width: 100%;
     z-index: 1;
     height: 88%;
     top: 0;
     left: 0;
 }
-
-/*.row {
-    padding-top: 100px;
-}*/
 
 .projectPic {
     width: 80%;
